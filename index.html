@@ -1,14 +1,253 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fi">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Maat</title>
-    <link rel="stylesheet" href="liettua.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
 </head>
 
-<body>
+<body style="background-image: url('https://storage.needpix.com/rsynced_images/background-2262984_1280.jpg');">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Johanna Uitus</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://github.com/Joxuu">Github <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Linkedin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Twitter</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-<h1>hello world!</h1>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-12">
+          <div class="accordion" id="accordionExample">
+            <div class="row text-center">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        Tietoa minusta
+                      </button>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Opinnot
+                      </button>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Projektini
+                      </button>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                  data-parent="#accordionExample">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="card w-100">
+                          <div class="row text-center">
+                            <div class="col-12">
+                              <img src="Sieppaa.PNG" class="card-img-top" alt="aatteeni" style="width:50%;">
+                            </div>
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Johanna Uitus</h5>
+                            <p class="card-text">Olen 23 vuotias datanomiksi opiskeleva ylioppilas.</p>
+                            <p class="card-text">Ylioppilaaksi valmistuin Tampereen aikuislukiossa 2018.</p>
+                            <p class="card-text">Asun Tampereella kahden kissan ja puolison kanssa.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <div class="row">
+                      <table class="table table-hover text-center" style="background-color: white !important;">
+                        <thead>
+                          <tr>
+                            <th>
+                              Opiskelupaikka
+                            </th>
+                            <th>
+                              Valmistumisvuosi
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              Kärjenniemien Koulu
+                            </td>
+                            <td>
+                              2004-2010
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Tyryn Koulu
+                            </td>
+                            <td>
+                              2010-2013
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Tampereen Klassillinen lukio
+                            </td>
+                            <td>
+                              2013-2017
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Tampereen Aikuislukio
+                            </td>
+                            <td>
+                              2017-2018
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Tredu, Datanomi
+                            </td>
+                            <td>
+                              2019-
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-12">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="Arttu.PNG" class="d-block w-100" alt="Kuvia projekteista tulossa.">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="Sintti_2.PNG" class="d-block width:50%;" alt="Kuvia projekteista tulossa.">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <table class="table table-hover" style="background-color: white !important;">
+                        <thead>
+                          <tr>
+                            <th>
+                              Projekti
+                            </th>
+                            <th>
+                              Projektin kuvaus
+                            </th>
+                            <th>
+                              Github linkki
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              Maa-työ
+                            </td>
+                            <td>
+                              Kahden valtion lyhyt esittely HTML-projektityönä.
+                            </td>
+                            <td>
+                              <a href="http://">Maa-työni</a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Ravintolatyö
+                            </td>
+                            <td>
+                              Fiktiivisen ravintolan viikon lounaslista.
+                            </td>
+                            <td>
+                              <a href="http://">Lounaslistani</a>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
 </body>
+
 </html>
